@@ -12,7 +12,7 @@ public class Program {
             System.out.printf("%2.2f degrees C is equal to %2.2f degrees F",firstInput,finaltemp);
         } else if(temperature.equals("F")){
             double finaltemp =(firstInput-32)/1.8;
-            System.out.printf("%2.2f degrees F is equal to %2.2f degrees C",firstInput,finaltemp);
+            System.out.printf("%2.2f degrees F is equal to %2.2f degrees c",firstInput,finaltemp);
         } else {
             System.out.println("unrecognized temperature");
         }
